@@ -1,5 +1,7 @@
 # LangGraph RAG Chatbot
 
+![Alt text describing the image](image.png)
+
 A conversational AI application built with **Streamlit, LangGraph, Groq, and Astra DB**. It supports two modes:
 
 - **RAG mode:** retrieves relevant document chunks from an Astra DB vector collection and supplies them as context to the language model.
