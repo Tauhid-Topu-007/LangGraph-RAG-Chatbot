@@ -1,0 +1,142 @@
+# ==================================================
+#  SECRETS — NEVER COMMIT THESE
+# ==================================================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+*.key
+*.crt
+
+# ==================================================
+#  PYTHON
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==================================================
+#  VIRTUAL ENVIRONMENTS
+# ==================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==================================================
+#  STREAMLIT
+# ==================================================
+.streamlit/secrets.toml
+.streamlit/*.log
+
+# ==================================================
+#  JUPYTER NOTEBOOKS (keeps structure, drops outputs)
+# ==================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Uncomment if you want to strip cell outputs from tracked notebooks:
+# *.ipynb
+
+# ==================================================
+#  DATA & MODELS (large files — don't commit)
+# ==================================================
+data/
+datasets/
+*.csv
+*.parquet
+*.json.gz
+*.db
+*.sqlite
+*.sqlite3
+models/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+.cache/
+.cache_huggingface/
+huggingface/
+
+# ==================================================
+#  ASTRA / LANGSMITH / GROQ local caches
+# ==================================================
+.astra/
+.langsmith/
+.langchain/
+groq_cache/
+
+# ==================================================
+#  LOGS & TEMP
+# ==================================================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+*.swp
+*~
+
+# ==================================================
+#  TESTING & COVERAGE
+# ==================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==================================================
+#  TYPE CHECKING / LINTING
+# ==================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyright/
+*.pytype/
+
+# ==================================================
+#  IDE / EDITORS
+# ==================================================
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================================================
+#  OS
+# ==================================================
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
